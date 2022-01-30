@@ -1,0 +1,22 @@
+a[href="https://www.google.co.in/"]
+{
+  color: indianred;
+  background: #000;
+}
+h1 {
+  color: indianred;
+}
+input[type*="text"] {
+  color: lawngreen;
+}
+input[type^="S"] {
+  color: lightcoral;
+  background: #000;
+}
+input[type^="R"] {
+  color: lightcoral;
+  background: #000;
+}
+a[href$=".com"] {
+  color: indianred;
+}

@@ -1,0 +1,14 @@
+
+img{
+    /* border:14px solid blueviolet; here 14px is width, style is solid, blueviolet is color*/
+    border-width: 20px;
+    border-style: ridge;
+    border-color: burlywood;
+    border-top: 20px solid green;
+    border-left: 20px ridge purple;
+    border-right: 20px inset aqua;
+
+}
+h1{
+    border:20px ridge aquamarine;
+}
