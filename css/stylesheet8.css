@@ -1,0 +1,17 @@
+body {
+    font-family: "Comforter", cursive;
+    font-family: "Poppins", sans-serif;
+  }
+.box-1{
+    border:1px solid black ;
+    padding:10px;
+    margin-bottom:20px;
+}
+.Box-2{
+    border:1px solid black ;
+    padding:10px;
+    margin-top:30px;
+}
+
+/* yaha margin bottom aur top milaake 50px banta lekin jiski value badi hoti for example top ki 30px hai toh utni hi margin hogi dono boxes ke beech and isko margin-collapasing kehte
+  */

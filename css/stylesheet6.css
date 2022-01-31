@@ -1,0 +1,41 @@
+h1{
+    /* border: 20px solid rgb(211, 135, 35); */
+
+         /* OR */
+
+    border-width: 20px;
+    border-style: ridge;
+    border-color:burlywood;
+
+    /* padding:20px;  */
+    /* top-right-left-bottom equal */
+
+        /* OR */
+
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+
+        /* OR */
+
+    /* padding:20px 30px;  */
+
+    /* top-bottom-left-right */
+
+        /* OR */
+
+    padding:20px 30px 40px 50px;
+
+    /* top-right-bottom-left #clockwise */
+        /* OR */
+
+    background:grey;
+
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+
+    /* margin and border ke liye bhi same multiple options hai jaise padding ke liye hai aur unme se hum koi bhi use kar sakte */
+    
+}
