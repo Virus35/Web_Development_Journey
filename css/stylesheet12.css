@@ -1,0 +1,30 @@
+nav{
+    background:lightgrey;
+    width:1495px;
+    margin:20px auto;
+    padding:1.5px;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding-bottom: 1.7px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    margin:12px;
+}
+h4{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.line{
+    width:1495px;
+    margin:20px auto;
+}
+body {
+    font-family: "Comforter", cursive;
+    font-family: "Poppins", sans-serif;
+  }
+a{
+    text-decoration: none;
+    color: black
+}
