@@ -1,0 +1,17 @@
+hr {
+  width: 600px;
+  margin-left: 0px;
+}
+.Box-1 {
+  box-sizing: border-box;
+  width: 600px;
+  border: 7px ridge purple;
+  margin-bottom: 10px;
+}
+
+.Box-2 {
+  width: 600px;
+  border: 2px ridge purple;
+  border: 7px ridge purple;
+  box-sizing: content-box;
+}

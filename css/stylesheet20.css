@@ -1,0 +1,17 @@
+/* p:not(#hello){
+    color: pink;
+} */
+/* body:not(p){
+    color: purple;
+}
+p:not(p){
+    color: royalblue;
+} */
+div:empty{
+    background-color: blueviolet;
+    height: 100px;
+    border:5px solid black
+}
+:root{
+    background-color: burlywood;
+}

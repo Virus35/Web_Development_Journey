@@ -1,0 +1,10 @@
+h1{
+    font-size: normal;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+p{
+    line-height: 30px;
+    word-spacing: 5px;
+    text-decoration: underline dotted red;
+}

@@ -1,26 +1,26 @@
-header{
-    background:bisque;
+header {
+  background: bisque;
 }
-.hello{
-    background:bisque;
+.hello {
+  background: bisque;
 }
 /* *{
     color: black;
 } */
-p{
-    color: brown;
+p {
+  color: brown;
 }
 /* ul{
     color: chartreuse;
 } */
-header p{
-    color: cyan;
+header p {
+  color: cyan;
 }
-li a{
-    color: darkgrey;
+li a {
+  color: darkgrey;
 }
-section{
-    color: darkslateblue;
+section {
+  color: darkslateblue;
 }
 /* h2+p{
     color: dodgerblue;
@@ -28,6 +28,6 @@ section{
 /* section >h2{
     color: greenyellow;
 } */
-section h2+p{
-    color: rgb(83, 190, 33);
+section h2 + p {
+  color: rgb(83, 190, 33);
 }

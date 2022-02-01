@@ -1,0 +1,38 @@
+p:first-child{
+    color:brown;
+}
+p:first-of-type{
+    color: crimson;
+}
+p:last-child{
+    color: cyan;
+}
+p:last-of-type{
+    color: deeppink;
+}
+p:nth-child(2n){
+    color: indigo;
+}
+/* where n=0,1,2,3,....so on */
+/* isme 2n me sab 2,4,6,8,.... paragraph ka color change hoga */
+p:nth-child(2n+1){
+    color: rgb(55, 190, 139);
+}
+p:nth-last-child(3n){
+    background-color: lightcoral;
+}
+ul li:first-child{
+    background-color: lightslategray;
+}
+ul li:last-child{
+    background-color: magenta;
+}
+ul li:first-of-type{
+    color: mediumorchid;
+}
+ul li:last-of-type{
+    color: mediumseagreen;
+}
+ul li:nth-child(2n){
+    color: palegreen;
+}

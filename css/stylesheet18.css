@@ -1,0 +1,27 @@
+body{
+font-family: 'Comforter', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quintessential', cursive;
+}
+h1{
+    text-align: center;
+    text-decoration: underline solid lightslategray;
+}
+input[type="submit"]{
+    color: maroon;
+    background:mediumaquamarine;
+}
+input[type="reset"]{
+    color: maroon;
+    background:mediumaquamarine;
+}
+input:focus{
+    color: mediumaquamarine;
+    outline: none;
+}
+input:required{
+    color:red;
+}
+input:hover{
+    background:lightseagreen;
+}

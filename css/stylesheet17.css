@@ -1,0 +1,29 @@
+a {
+  font-size: 50px;
+  text-decoration: none;
+  color: chartreuse;
+}
+
+/* Order of pseudo classes must be as :-moz-any
+ LINK - VISITED - HOVER -ACTIVE */
+
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color: cornflowerblue;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+a:active{
+    color: deeppink; 
+}
+/* active means on holding the link for a while, the color will change */
+
+p:hover{
+    color: dimgray;
+}
+p:active{
+    background-color: gold;
+}
