@@ -1,0 +1,21 @@
+h1{
+    font-size: 3em;
+    /* 16*3=48px */
+    border: 2em ridge greenyellow;
+    /* sabse pehle border h1 ka font size dekhega jo is case me 48px hai
+    and 48*2=96 hojayega */
+    /* and for example agar h1 ka font size default hota toh
+    toh h1 ka parent hoti body aur body ka default size hota 16px
+    toh 2em hojaana tha 16*2=32px */
+}
+
+div{
+    font-size: 20px;
+    /* 20*3=60px */
+    /* kyunki ab h1 joki div ke andar hai us h1 ka size 60px
+    hogya hai kyunki h1 apna parent dekhega aur parent hai div
+    aur div ka size hai 20px so div ke andar vaale h1 ka size hogya
+    20*3 =60px */
+    border: 2em ridge red;
+    /* border 40px */
+}

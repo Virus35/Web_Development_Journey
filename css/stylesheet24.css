@@ -1,0 +1,32 @@
+p{
+    font-size: 100%;
+}
+/* default browser ka size hota hai 16px toh
+16px ka 100% 16px hi hua so abhi font-size
+100% ka matlab hai 16px */
+
+div{
+    font-size: 32px;
+}
+
+div p{
+    font-size: 50%;
+}
+
+/* yaha div ka font-size maine diya 32px
+toh div ke paragraph me 50% matlab
+32px ka 50% i.e, 16px */
+
+/* similary hum percentage ko aese hi use karte hais */
+
+.box{
+    border: 5px ridge red;
+    width: 500px;
+}
+.box p{
+    border: 5px ridge forestgreen;
+    width: 50%;
+    margin:3px auto;
+    text-align: center;
+    background-color: goldenrod;
+}

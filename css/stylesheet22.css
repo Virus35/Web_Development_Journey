@@ -1,0 +1,18 @@
+p::before{
+    content: 'kaise ho? ';
+    border: 5px ridge red;
+    margin-right: 5px;
+    /* by default before me element inline hota hai */
+    display: block;
+    margin-bottom: 5px;
+}
+p::after{
+    content: 'kaise ho? ';
+    border: 5px ridge red;
+    margin-right: 5px;
+    /* by default before me element inline hota hai */
+    display: block;
+    margin-top: 5px;
+}
+
+/* we cannot use before and after in img tag, embed tag, br tag, input tags, video tags etc */

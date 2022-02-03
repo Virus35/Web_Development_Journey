@@ -1,0 +1,13 @@
+html{
+    font-size: 10px;
+}
+p{
+    font-size: 2rem;
+    border: 0.5rem ridge greenyellow;
+    padding: 1rem;
+    margin:auto;
+}
+
+/* html ka defaut size 16px hota hai which is 
+equal to 1rem and 2rem means double the size of
+html means 2rem=10*2=20 in this case */
