@@ -1,0 +1,15 @@
+h1{
+    border: 5px ridge greenyellow;
+    width: 50vw;
+    /* height: 50vmin; */
+}
+p{
+    border: 7px ridge aquamarine;
+    height: 50vh;
+    /* width: 50vmax; */
+}
+
+/* vw=kisi bhi device me usi device ke according width hojaati hai */
+/* vh=kisi bhi device me usi device ke according height hojaati hai */
+/* vmin=vh aur vm mese jo minimun hota hai wahi width and height hojaati hai */
+/* vmin=vh aur vm mese jo maximun hota hai wahi width and height hojaati hai */

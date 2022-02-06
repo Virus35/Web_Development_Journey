@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.shopping {
+  border: 5px ridge lightseagreen;
+}
+.grocery {
+  float: left;
+  width: 30%;
+  border-right: 2px solid black;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: justify;
+}
+.grocery-1 {
+  float: left;
+  width: 30%;
+  border-right: 2px solid black;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: justify;
+}
+.grocery-11 {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  text-align: justify;
+}
+
+.clear-fix {
+  clear: both;
+}
