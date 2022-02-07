@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comforter", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Quintessential", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+    border: 5px ridge green;
+    padding: 6px;
+    margin-top: 30px;
+}
+h1{
+    border: 3px solid red;
+    background:lightyellow;
+    padding: 4px;
+    /* position: static; */
+    /* default position is static */
+    /* position: relative;
+    left: 50px; */
+    /* position:absolute;
+    top:100px;
+    z-index: -1; */
+}
+div h3{
+    background-origin: 3px solid black;
+    background: #000;
+    color: aliceblue;
+    /* padding: 4px;
+    position: fixed;
+    top:0px; */
+
+}
+.container p{
+    border: 3px ridge purple;
+    background:lightgray;
+    padding: 4px;
+}
+h3{
+    position: sticky;
+    top:0px;
+    background-color: aquamarine;
+}
