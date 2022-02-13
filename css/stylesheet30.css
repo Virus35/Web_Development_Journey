@@ -1,0 +1,49 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0%;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.Container{
+    border: 4px solid rebeccapurple;
+    font-size: 5rem;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* height: 200px; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* height: 900px; */
+}
+.box{
+    border: 2px ridge red;
+    /* width: 500px; */
+    /* height: 500px; */
+    /* width: 200px; */
+}
+.box-1{
+    background-color: antiquewhite;
+}
+.box-2{
+    background-color: aquamarine;
+}
+.box-3{
+    background-color: bisque;
+}
+.box-4{
+    background-color: burlywood;
+}
