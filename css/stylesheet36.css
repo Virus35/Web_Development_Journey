@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    border-radius: 50%;
+    /* transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+    transition-property: height;
+    transition-duration: 1s;
+    transition-delay: 500ms; */
+    /* transition: background-color 1s ease-in-out,
+                width 1s ease-in-out,
+                height 1s ease-in-out; */
+     transition: all 1s ease-in-out; 
+
+}
+.box:hover{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
