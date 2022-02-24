@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Cookie", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Lora", serif;
+}
+
+
+/* #########Utility Classes ############################################ */
+.navbar-container{
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ########################Navigation Bar ########################## */
+/* #################Desktop Use Only############################# */
+
+.navbar-container input[type="checkbox"],.hamburger-lines{
+  display: none;
+}
+
+.navbar{
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  opacity: 0.9px;
+  z-index: 2;
+}
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+.navbar-container .menu-items{
+  order: 2;
+  display: flex;
+}
+.menu-items li{
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: medium;
+
+}
+
+.navbar a{
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.4s ease-in-out;
+  color: rgb(34, 122, 63);
+  font-size: medium;
+}
+.navbar a:hover{
+  color: #117964;
+}
+.navbar .logo{
+  font-weight: 700;
+  font-size: x-large;
+}
