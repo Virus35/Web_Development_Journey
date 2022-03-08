@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../CSS/stylesheet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/cfa93dbc18.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Lora:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- <link rel="stylesheet" href="../CSS/sample.css"> -->
     <title>Document</title>
   </head>
   <body>
-      <nav class="navbar">
-        <div class="navbar-container">
-        <input type="checkbox">
+    <nav class="navbar">
+      <div class="navbar-container">
+        <input type="checkbox" />
         <div class="hamburger-lines">
           <span class="line line-1"></span>
           <span class="line line-2"></span>
@@ -24,14 +29,359 @@
         </div>
         <ul class="menu-items">
           <li><a href="#Home">Home</a></li>
-          <li><a href="About Us">About Us</a></li>
+          <li><a href="#About-Us">About Us</a></li>
           <li><a href="#Category">Category</a></li>
           <li><a href="#Menu">Menu</a></li>
           <li><a href="#Testimonial">Testimonial</a></li>
-          <li><a href="#Contact Us">Contact Us</a></li>
+          <li><a href="#Contact-Us">Contact Us</a></li>
         </ul>
         <h1 class="logo">Virus Food</h1>
       </div>
-      </nav>
+    </nav>
+
+    <section class="showcase" id="Home">
+      <div class="showcase-container">
+        <h1 class="showcase-heading">Eat Food</h1>
+        <p class="showcase-paragraph">Eat Healthy Food!</p>
+        <a href="#food-menu" class="button button-decoration">Menu</a>
+      </div>
+    </section>
+
+    <section class="about-us" id="About-Us">
+      <div class="about-us-container container">
+        <div class="about-us-content">
+          <p class="about-us-content-paragraph">About-us</p>
+          <h1 class="about-us-content-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            totam.
+          </h1>
+          <p class="about-us-content-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            natus molestiae nisi voluptatum nemo voluptatem recusandae corrupti
+            cum laudantium! Facere mollitia exercitationem necessitatibus
+            facilis veritatis expedita similique ducimus praesentium, fugit
+            excepturi officiis vitae asperiores? Nesciunt ad eius odio aperiam
+            optio?
+          </p>
+        </div>
+        <div class="about-us-image">
+          <img src="../Images/about-photo.jpg" alt="Image Not Found" />
+        </div>
+      </div>
+    </section>
+
+    <section id="Category" class="food-category">
+      <h1>Types <span style="color: rgb(34, 122, 63)">Of</span> Food</h1>
+      <div class="food-container container">
+        <div class="food-type fruit">
+          <div class="image-container">
+            <img src="../Images/food1.jpg" alt="Fruit Image" />
+            <div class="content-container">
+              <h3>Fruits</h3>
+              <a
+                href="https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=4865742&q=site:https%3A%2F%2Fblog.smartfruit.com%2Frss"
+                class="button button-decoration"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type Vegetables">
+          <div class="image-container">
+            <img src="../images/food2.jpg" alt="Vegetables Image" />
+            <div class="content-container">
+              <h3>Vegetables</h3>
+              <a
+                href="https://www.britannica.com/topic/vegetable"
+                class="button button-decoration"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="food-type South-Indian">
+          <div class="image-container">
+            <img src="../Images/food3.jpg" alt="Grain Image" />
+            <div class="content-container">
+              <h3>Grains</h3>
+              <a
+                href="https://wholegrainscouncil.org/"
+                class="button button-decoration"
+                target="_blank"
+                >Learn More</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="food-menu" id="Menu">
+      <h1 class="food-menu-heading">Food <span>Menu</span></h1>
+      <div class="food-menu-container container">
+        <div class="food-item-1 food-item">
+          <div class="food-menu-image">
+            <img src="../Images/food-menu1.jpg" alt="Salad Image" />
+          </div>
+          <div class="food-menu-description">
+            <h1 class="food-menu-title">Salad</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
+              eos!
+            </p>
+            <span>Price: &#8377; 250</span>
+          </div>
+        </div>
+
+        <div class="food-item-2 food-item">
+          <div class="food-menu-image">
+            <img src="../Images/food-menu2.jpg" alt="Oots Image" />
+          </div>
+          <div class="food-menu-description">
+            <h1 class="food-menu-title">Banana Serials</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
+              eos!
+            </p>
+            <span>Price: &#8377; 200</span>
+          </div>
+        </div>
+
+        <div class="food-item-3 food-item">
+          <div class="food-menu-image">
+            <img src="../Images/food-menu3.jpg" alt="Avacado Image" />
+          </div>
+          <div class="food-menu-description">
+            <h1 class="food-menu-title">Avacado</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
+              eos!
+            </p>
+            <span>Price: &#8377; 150</span>
+          </div>
+        </div>
+
+        <div class="food-item-4 food-item">
+          <div class="food-menu-image">
+            <img src="../Images/food-menu4.jpg" alt="Fruit Salad Image" />
+          </div>
+          <div class="food-menu-description">
+            <h1 class="food-menu-title">Fruit Salad</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
+              eos!
+            </p>
+            <span>Price: &#8377; 100</span>
+          </div>
+        </div>
+
+        <div class="food-item-5 food-item">
+          <div class="food-menu-image">
+            <img src="../Images/food-menu5.jpg" alt="Main Course Image" />
+          </div>
+          <div class="food-menu-description">
+            <h1 class="food-menu-title">Main Course</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
+              eos!
+            </p>
+            <span>Price: &#8377; 50</span>
+          </div>
+        </div>
+
+        <div class="food-item-6 food-item">
+          <div class="food-menu-image">
+            <img src="../Images/food-menu6.jpg" alt="Fruit chaat  Image" />
+          </div>
+          <div class="food-menu-description">
+            <h1 class="food-menu-title">Fruit Chaat</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora,
+              eos!
+            </p>
+            <span>Price: &#8377; Complimentary</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial" id="Testimonial">
+      <h1 class="testimonial-heading">Customer <span>Reviews</span></h1>
+
+      <div class="testimonial-container container">
+        <div class="customer-reviews">
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus, aliquam?
+          </p>
+          <img
+            src="../Images/male-photo1.jpg"
+            alt="customer-review-1"
+            class="testimonial-images"
+          />
+          <h5>Nitash <span>Bhatia</span></h5>
+        </div>
+
+        <div class="customer-reviews">
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus, aliquam?
+          </p>
+          <img
+            src="../Images/male-photo2.jpg"
+            alt="customer-review-2"
+            class="testimonial-images"
+          />
+          <h5>Vishal <span>Goel</span></h5>
+        </div>
+
+        <div class="customer-reviews">
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star-half-stroke"></i></span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatibus, aliquam?
+          </p>
+          <img
+            src="../Images/male-photo3.jpg"
+            alt="customer-review-3"
+            class="testimonial-images"
+          />
+          <h5>Raghav <span>Kapoor</span></h5>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-us" id="Contact-Us">
+      <h1 class="contact-us-heading">Contact <span>Us</span></h1>
+      <div class="contact-us-container container">
+        <div class="contact-us-image">
+          <h1 class="left-side-heading">Contact <span>Information</span></h1>
+          <!-- <p class="border-bottom"></p> -->
+          <div class="contact-us-text">
+            <i class="fa-solid fa-location-dot contact-us-signs"></i>
+            <p class="contact-us-info">Dasuya,<span>Punjab</span>,India</p>
+            <br />
+            <i class="fa-solid fa-envelope contact-us-signs"></i>
+            <p class="contact-us-info">Rikhivva@gmail.com</p>
+            <br />
+            <i class="fa-solid fa-address-book contact-us-signs"></i>
+            <p class="contact-us-info">+91 0987654321</p>
+            <br />
+          </div>
+          <img src="../Images/restraunt-image.jpg" alt="restraunt-image" />
+        </div>
+        <div class="contact-us-form">
+          <h1 class="contact-us-form-heading">Send us a message</h1>
+          <p class="contact-us-form-paragraph">
+            Send us a message and we'll respond within 24hours.
+          </p>
+          <form>
+            <div class="form-items spacing">
+              <div class="form-item">
+                <label for="firstname">First Name </label><br />
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Type first name here"
+                />
+              </div>
+              <div class="form-item spacing">
+                <label for="lastname">Last Name </label><br />
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Type last name here"
+                />
+              </div>
+              <div class="form-item">
+                <label for="email">Email </label><br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Type email here"
+                />
+              </div>
+              <div class="form-item">
+                <label for="contact-no">Contact No </label><br />
+                <input
+                  type="number"
+                  name="contact-no"
+                  id="contact-no"
+                  placeholder="Phone number"
+                />
+              </div>
+            </div>
+            <textarea
+              name="text-area"
+              id="text-area"
+              cols="30"
+              rows="10"
+              placeholder="Type your message here"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="home-foot footer">
+      <div class="social">
+        <i class="fa-brands fa-facebook fa-3x"></i>
+        <i class="fa-brands fa-github fa-3x"></i>
+        <i class="fa-brands fa-instagram fa-3x"></i>
+        <i class="fa-brands fa-twitter fa-3x"></i>
+      </div>
+      <p>Virus Food &copy; 2022, All Rights Reserved.</p>
+    </footer>
+
+    <!-- ##########################script################################################### -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
   </body>
 </html>

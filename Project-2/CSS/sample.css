@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Cookie", cursive;
+  font-family: "Great Vibes", cursive;
+  font-family: "Lora", serif;
+}
+
+/* #########Utility Classes ############################################ */
+.navbar-container {
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+}
+.container {
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+}
+
+.button {
+  text-decoration: none;
+  color: #117964;
+  background-color: burlywood;
+  border-radius: 5rem;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* ########################Navigation Bar ########################## */
+/* #################Desktop Use Only############################# */
+
+.navbar-container input[type="checkbox"],
+.hamburger-lines {
+  display: none;
+}
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  opacity: 0.9px;
+  z-index: 2;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+.navbar-container .menu-items {
+  order: 2;
+  display: flex;
+}
+.menu-items li {
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: medium;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.4s ease-in-out;
+  color: rgb(34, 122, 63);
+  font-size: medium;
+}
+.navbar a:hover {
+  color: #117964;
+}
+.navbar .logo {
+  font-weight: 700;
+  font-size: x-large;
+}
+
+/* ###########showcase-section################## */
+
+.showcase {
+  background: url(../Images/header-image2.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 500;
+}
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 115%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-right: 7.3rem;
+}
+
+.showcase-paragraph {
+  margin-top: 0.25rem;
+}
+
+/* ################About-Us################# */
+
+.about-us {
+  margin-top: 5rem;
+  background: #f5f5f7;
+}
+
+.about-us-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us-content-paragraph {
+  font-size: 2rem;
+  color: darkslategrey;
+}
+.about-us-content-heading {
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+
+.about-us-image {
+  flex: 1 1 40rem;
+  padding: 3rem;
+  transform: translateX(150%);
+  animation: about-us-image 1s ease-in-out forwards;
+  
+}
+@keyframes about-us-image {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.about-us-content {
+  flex: 1 1 40rem;
+  padding: 3rem;
+  margin: auto;
+  transform: translateX(-150%);
+  animation: about-us-content 1s ease-in-out forwards;
+}
+
+@keyframes about-us-content {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.about-us-image img {
+  height: 60rem;
+  max-width: 100%;
+  margin: auto;
+  object-fit: cover;
+  object-position: right;
+  height: 40rem;
+  box-shadow: 0px 2px 7px 2px #aaa;
+}
+
+
+/* #############################food-menu######################################### */
+
+.image-container img{
+    height: 60rem;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+
+}
